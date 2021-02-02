@@ -21,10 +21,10 @@
       </div>
     <% end %>
 
-    <nav class="navbar is-warning">
+    <nav class="navbar is-white">
       <div class="navbar-brand">
         <%= link_to root_path, class: "navbar-item" do %>
-          <h1 class="title is-4" style="font-family: monospacw;">Recette_Sweets</h1>
+          <h1 class="title is-4" style="font-family: monospace;">Recette_Sweets</h1>
         <% end %>
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
@@ -46,7 +46,7 @@
             <div class="navbar-item">
               <div class="field is-grouped">
                 <p class="control">
-                  <%= link_to "レシピグラマー一覧", root_path, class: " button is-warning is-light" %>
+                  <%= link_to "レシピグラマー一覧", users_path, class: " button is-warning is-light" %>
                 </p>
                 <p class="control">
                   <%= link_to "マイページ", root_path, class: "button is-warning is-light" %>
@@ -64,7 +64,7 @@
             <%= link_to "レシピ一覧", root_path, class: "navbar-item button is-warning is-light" %>
           </div>
           <div class="navbar-item">
-            <%= link_to "レシピグラマー一覧", root_path, class: "navbar-item button is-warning is-light" %>
+            <%= link_to "レシピグラマー一覧", users_path, class: "navbar-item button is-warning is-light" %>
           </div>
           <div class="navbar-end">
             <div class="navbar-item">
