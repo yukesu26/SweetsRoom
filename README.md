@@ -65,3 +65,7 @@
 * % rails db:create
 * % rails db:migrate
 * % rails s
+# ruby-version
+2.6.5
+# rails-version
+6.0.3.4
