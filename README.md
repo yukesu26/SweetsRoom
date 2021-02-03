@@ -22,9 +22,9 @@
 | image_id    | string | null: false    |
 | memo        | text   | null: false    |
  
-
 ### Association
 - belongs_to :user
+
 
 
 # アプリケーション名
