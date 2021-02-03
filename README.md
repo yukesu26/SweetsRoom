@@ -25,8 +25,6 @@
 ### Association
 - belongs_to :user
 
-
-
 # アプリケーション名
 ## recette_sweets
 # 概要
