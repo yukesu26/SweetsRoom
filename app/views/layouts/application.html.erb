@@ -36,17 +36,17 @@
       <% if user_signed_in? %>
         <div id="navbarExampleTransparentExample" class="navbar-menu">
           <div class="navbar-item">
-            <%= link_to "レシピ一覧", root_path, class: "navbar-item button is-warning is-light" %>
+            <%= link_to "ルセット一覧", root_path, class: "navbar-item button is-warning is-light" %>
           </div>
           <div class="navbar-item">
-            <%= link_to "レシピ投稿", root_path, class: "navbar-item button is-warning is-light" %>
+            <%= link_to "ルセット投稿", root_path, class: "navbar-item button is-warning is-light" %>
           </div>
 
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="field is-grouped">
                 <p class="control">
-                  <%= link_to "レシピグラマー一覧", users_path, class: " button is-warning is-light" %>
+                  <%= link_to "みんなのページ", users_path, class: " button is-warning is-light" %>
                 </p>
                 <p class="control">
                   <%= link_to "マイページ", root_path, class: "button is-warning is-light" %>
@@ -61,10 +61,10 @@
       <% else %>
         <div id="navbarExampleTransparentExample" class="navbar-menu">
           <div class="navbar-item">
-            <%= link_to "レシピ一覧", root_path, class: "navbar-item button is-warning is-light" %>
+            <%= link_to "ルセット一覧", root_path, class: "navbar-item button is-warning is-light" %>
           </div>
           <div class="navbar-item">
-            <%= link_to "レシピグラマー一覧", users_path, class: "navbar-item button is-warning is-light" %>
+            <%= link_to "みんなのページ", users_path, class: "navbar-item button is-warning is-light" %>
           </div>
           <div class="navbar-end">
             <div class="navbar-item">
