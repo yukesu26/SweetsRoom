@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RecipegramDemo</title>
+    <title>recette-sweets</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-   </head>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    </head>
 
   <body>
     <% if flash[:notice] %>
@@ -36,10 +37,10 @@
       <% if user_signed_in? %>
         <div id="navbarExampleTransparentExample" class="navbar-menu">
           <div class="navbar-item">
-            <%= link_to "ルセット一覧", root_path, class: "navbar-item button is-warning is-light" %>
+            <%= link_to "ルセット一覧", recettes_path, class: "navbar-item button is-warning is-light" %>
           </div>
           <div class="navbar-item">
-            <%= link_to "ルセット投稿", root_path, class: "navbar-item button is-warning is-light" %>
+            <%= link_to "ルセット投稿", new_recette_path, class: "navbar-item button is-warning is-light" %>
           </div>
 
           <div class="navbar-end">
@@ -49,7 +50,7 @@
                   <%= link_to "みんなのページ", users_path, class: " button is-warning is-light" %>
                 </p>
                 <p class="control">
-                  <%= link_to "マイページ", root_path, class: "button is-warning is-light" %>
+                  <%= link_to "マイページ", user_path(current_user), class: "button is-warning is-light" %>
                 </p>
                 <p class="control">
                   <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "button is-warning is-light" %>
@@ -61,7 +62,7 @@
       <% else %>
         <div id="navbarExampleTransparentExample" class="navbar-menu">
           <div class="navbar-item">
-            <%= link_to "ルセット一覧", root_path, class: "navbar-item button is-warning is-light" %>
+            <%= link_to "ルセット一覧", recettes_path, class: "navbar-item button is-warning is-light" %>
           </div>
           <div class="navbar-item">
             <%= link_to "みんなのページ", users_path, class: "navbar-item button is-warning is-light" %>
