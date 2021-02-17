@@ -47,6 +47,8 @@
 ## ![ユーザーページ](https://user-images.githubusercontent.com/75784020/106732349-f1cd1480-6653-11eb-8f90-a6a140dca333.png)
 ユーザー登録後は簡単にレシピ、画像の投稿が可能です。もちろん編集
 と削除も可能です。
+## ![トップページ](https://user-images.githubusercontent.com/75784020/108215885-2a511000-7175-11eb-90e2-7f6a1ac9e9a9.jpg)
+
 # 実装予定の機能
 * レシピ検索機能
 * 器具一覧機能  
