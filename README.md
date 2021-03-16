@@ -29,16 +29,7 @@
 ## recette_sweets
 # 概要
 洋菓子のレシピ投稿、写真の投稿、日記感覚で利用する  メモアプリケーションです。
-# デプロイ済みのURL
 
-# テスト用アカウント(ログイン)
-* ユーザー名  test
-* email  test@test
-* password  111111
-
-* ユーザー名  testtest
-* email  maru@maru
-* password  222222
 # 利用方法
 会員登録後にレシピ、写真を投稿すことができ、会員であればいつでも  投稿、編集、削除が可能で他のユーザーの情報も閲覧することができます。
 # 目指した課題解決
@@ -52,7 +43,7 @@
 # 実装予定の機能
 * レシピ検索機能
 * 器具一覧機能  
-
+* コメント機能
 ## ![ER図 recette](https://user-images.githubusercontent.com/75784020/106712405-3f3d8780-663c-11eb-96ff-03cdfb9560bc.png)
 
 # ローカルでの動作方法
@@ -63,6 +54,14 @@
 * % rails db:create
 * % rails db:migrate
 * % rails s
+* % http://localhost:3000/
+
+# 仕様したGem
+* devise
+* bulma-rails
+* refile
+* refile-mini_magick
+
 # ruby-version
 2.6.5
 # rails-version
