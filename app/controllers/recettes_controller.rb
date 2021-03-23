@@ -14,8 +14,9 @@ class RecettesController < ApplicationController
     end
   end
 
-  def index
+  def index 
     @recettes = Recette.all.order(created_at: :desc)
+    @recettes = Recette.page(params[:page]).per(6)
   end
 
   def show
