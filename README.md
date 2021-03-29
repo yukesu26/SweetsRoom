@@ -8,7 +8,10 @@
 # 目指した課題解決
 アプリ操作が苦手な高齢者の方が、料理の幅を広げることができるようなアプリを作りました。
 # 実装した機能についてのGIFと説明
-## ![ユーザーページ](https://user-images.githubusercontent.com/75784020/106732349-f1cd1480-6653-11eb-8f90-a6a140dca333.png)
+
+## トップページ
+## ![6894a9492a4f28b6de10601e792d195d](https://user-images.githubusercontent.com/75784020/112808290-cb57b280-90b3-11eb-8841-045bf8fa5251.jpeg)
+
 ユーザー登録後は簡単にレシピ、画像の投稿が可能です。もちろん編集
 と削除も可能です。
 ## ![トップページ](https://user-images.githubusercontent.com/75784020/108215885-2a511000-7175-11eb-90e2-7f6a1ac9e9a9.jpg)
