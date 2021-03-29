@@ -6,9 +6,12 @@
           <strong class="is-size-1" style="font-family: monospace;">Sweets_Room</strong>
         </p>
       </div>
+          <% if user_signed_in? %>
+           <%= link_to "こんにちは、#{current_user.user_name}さん", user_path(current_user), class: :greeting__link%>
+          <% end %>
       <div class="columns is-centered">
         <div class="column is-5">
-          <br>
+          
           
           <%= link_to "ログイン", new_user_session_path, class: "button is-warning is-fullwidth" %>
           <br>
