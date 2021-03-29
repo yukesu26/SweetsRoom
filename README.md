@@ -15,7 +15,7 @@
 
 ## 一覧ページ
 一覧ページにはページネーション機能が実装されています。画像６枚以上になった場合に次ページに遷移できます。
-## !https://user-images.githubusercontent.com/75784020/112813142-db25c580-90b8-11eb-9a0c-6502c23646cc.mp4
+## https://user-images.githubusercontent.com/75784020/112813142-db25c580-90b8-11eb-9a0c-6502c23646cc.mp4
 
 ## ユーザーページ
 投稿者本人であれば編集、削除が可能です。
